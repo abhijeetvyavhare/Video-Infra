@@ -1,0 +1,33 @@
+open cv -> library
+deepface
+
+cv2 -> module
+DeepFace
+
+**video capture**
+
+videoCapture(0,cv2.CAP_DSHOW): 
+	used to capture video run time (it create object)
+	cap_dshow is used to display the image capturing
+read(): 
+	it actually capture video or image using object of videoCapture
+cvtcolor(video,color):
+	used change color of video(black and white prefered bcoz facial parts are clearly visible)
+	
+imshow(title,video): 
+	show video or image which is capturing
+	It has parameter title and object return by read function.
+waitKey(1): 
+	used to close the video capturing window.
+
+**face recognition**
+CascadeClassifier(data_filepath/data_filename):
+	used to capture the facial part and expression(returns object)
+detectMultiScale():
+	used to cover the face structure using CascadeClassifier object
+
+
+
+	
+	
+			
